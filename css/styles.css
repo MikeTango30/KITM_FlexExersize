@@ -3,23 +3,19 @@
 	padding: 0;
 }
 
-.wrapper {
+.wrapper, .container, header {
 	display: flex;
 	justify-content: center;
 }
 
-.container {
-	display: flex;
+
+
+.wrapper {
 	flex-wrap: wrap;
 	width: 90%;
 }
 
-img {
-	margin: 5px;
-}
-
 header {
-	display: flex;
 	width: 100%;
 	margin: 15px;
 }
@@ -45,4 +41,8 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+img {
+	margin: 5px;
 }
